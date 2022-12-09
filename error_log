@@ -1,0 +1,87 @@
+[24-May-2022 14:39:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home2/cloudcfd/public_html/public/index.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/index.php on line 22
+[24-May-2022 14:40:38 UTC] PHP Fatal error:  require(): Failed opening required '/home2/cloudcfd/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[28-May-2022 04:59:29 UTC] PHP Fatal error:  Uncaught ErrorException: include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(): Fail...', '/home2/cloudcfd...', 571, Array)
+#1 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): include()
+#2 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/cloudcfd...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /home2/cloudcfd/public_html/vendor/lar in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[28-May-2022 04:59:31 UTC] PHP Fatal error:  Uncaught ErrorException: include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(): Fail...', '/home2/cloudcfd...', 571, Array)
+#1 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): include()
+#2 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/cloudcfd...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /home2/cloudcfd/public_html/vendor/lar in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[28-May-2022 04:59:38 UTC] PHP Fatal error:  Uncaught ErrorException: include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Exceptions/Handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(): Fail...', '/home2/cloudcfd...', 571, Array)
+#1 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(571): include()
+#2 /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home2/cloudcfd...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /home2/cloudcfd/public_html/vendor/lar in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[28-May-2022 04:59:58 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home2/cloudcfd/public_html/app/Exceptions/Handler.php on line 41
+[28-May-2022 04:59:58 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home2/cloudcfd/public_html/app/Exceptions/Handler.php on line 41
+[28-May-2022 05:00:04 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home2/cloudcfd/public_html/app/Exceptions/Handler.php on line 41
+[30-May-2022 17:20:35 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:35 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[30-May-2022 17:20:38 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:38 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[30-May-2022 17:20:39 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:39 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:39 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[30-May-2022 17:20:41 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:41 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[30-May-2022 17:20:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[14-Jun-2022 05:36:27 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[14-Jun-2022 05:36:27 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[14-Jun-2022 05:36:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[14-Jun-2022 05:37:33 UTC] PHP Warning:  include(/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[14-Jun-2022 05:37:33 UTC] PHP Warning:  include(): Failed opening '/home2/cloudcfd/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cloudcfd/public_html/vendor/composer/ClassLoader.php on line 571
+[14-Jun-2022 05:37:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illum in /home2/cloudcfd/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[23-Jun-2022 15:55:27 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home2/cloudcfd/public_html/app/Http/Controllers/Api/OrdersControllers.php on line 366
